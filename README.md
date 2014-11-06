@@ -5,7 +5,8 @@ make database with name myphonebookdb
 set config database.php on laravel agree with your system
 
 run application 
-1. php artisan migrate
+1. composer update 
+2. php artisan migrate
 2  php artisan db:seed
 3. php artisan serve
 
